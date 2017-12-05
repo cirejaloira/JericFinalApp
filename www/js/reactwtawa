@@ -1,0 +1,848 @@
+let process = {
+  menu:function(){
+    let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">World of Myth</div>
+              </div>
+            </div>
+
+    <div className="list-group">
+      <ul>
+        <li className="list-group-title">A</li>
+        <li><a href='#' onClick={process.Alicorn}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Alicorn</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.Astomi}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Astomi</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">B</li>
+        <li><a href='#' onClick={process.Banshee}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Banshee</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.Basilisk}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Basilisk</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.Berzerkers}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Berzerkers</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.Bigfoot}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Bigfoot</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.Bogeyman}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">BogeyMan</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+      <div className="list-group">
+      <ul>
+        <li className="list-group-title">C</li>
+        <li><a href='#' onClick={process.Centaur}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Centaur</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.Cerberus}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Cerberus</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.Chimera}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Chimera</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.Cyclopes}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Cyclopes</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">D</li>
+        <li><a href='#' onClick={process.Demon}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Demon</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page12}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">DoppleGanger</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page13}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Dragon</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page14}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Dwarf</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">E</li>
+        <li><a href='#' onClick={process.page15}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Elf</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">F</li>
+        <li><a href='#' onClick={process.page16}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Fairy</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">G</li>
+        <li><a href='#' onClick={process.page17}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Ghost</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Ghost Rider</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Gnome</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Golem</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Goblin</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Gorgon</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Ghoul</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Griffin</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Grim Reaper</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">H</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Hydra</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Hellhound</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+    <div className="list-group">
+      <ul>
+        <li className="list-group-title">I</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Imp</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">K</li>
+          <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Kanima</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Kitsune</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">L</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Leprechauns</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Lochness Monster</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">M</li>
+                <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Manticore</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Mermaid</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Minotaur</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">O</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Ogre</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">P</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Pegasus</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Phoenix</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Pixie</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">S</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Sphinx</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+                <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Sea Serpent</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">U</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Unicorn</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">V</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Valkeries</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Vampire</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">W</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Werewolf</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Wendigo</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Witch</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">Y</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Yeti</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+        <div className="list-group">
+      <ul>
+        <li className="list-group-title">Z</li>
+        <li><a href='#' onClick={process.page1}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Zombie</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>;
+    ReactDOM.render(content,document.getElementById('root'));
+  },
+  Alicorn:function(){
+    let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">World of Myth</div>
+              </div>
+            </div>
+            <center><img src={"img/imp.jpg"}/>
+            <p>asdajslfkjsldkjadlk jalkjlksjdlkaj lkj lakjskldj </p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Astomi:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Banshee:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Basilisk:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Berzerkers:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Bogeyman:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Bigfoot:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Centaur:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Cerberus:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Chimera:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Cyclopes:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Demon:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  DoppleGanger:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Dragon:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Dwarf:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Elf:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Fairy:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Ghost:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  GhostRider:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Gnome:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Golem:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Goblin:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Gorgon:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Ghoul:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Griffin:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    GrimReaper:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Hydra:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Hellhound:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Imp:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Kanima:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Kitsune:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Leprechauns:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  LochnessMon:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Manticore:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Mermaid:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Minotaur:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Ogre:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Pegasus:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Phoenix:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Pixie:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Sphinx:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    SeaSerpent:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Unicorn:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Valkeries:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Vampire:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Werewolf:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Wendigo:function(){
+    let content = <div>
+        this is page 2<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Witch:function(){
+    let content = <div>
+        this is page 3<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  Yeti:function(){
+  let content = <div>
+        this is page 4<br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Zombie:function(){
+    let content = <div>
+        <br/><a href='#' onClick={process.menu}>back</a>
+      </div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  loading:function(){
+    let content = <div>
+          Loading...
+        </div>;
+    ReactDOM.render(content,document.getElementById('root'));
+  }
+}
+
+process.loading();
+setTimeout(function(){
+  process.menu();
+},3000);
